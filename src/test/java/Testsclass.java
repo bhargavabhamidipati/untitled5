@@ -9,6 +9,7 @@ public class Testsclass {
         obj = new Calculator();
         assertEquals(4,obj.add(2,2));
     }
+    @Test
     public void testSub(){
         Calculator obj;
         obj = new Calculator();
