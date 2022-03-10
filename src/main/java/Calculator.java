@@ -7,4 +7,6 @@ public class Calculator {
         return a-b;
     }
 
+    public int div(int a, int b) { rerturn a*b; }
+
 }
