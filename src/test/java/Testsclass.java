@@ -18,7 +18,7 @@ public class Testsclass {
     }
 
     //Florian Dabat TestCase
-    public void testDub() {
+    public void testSub() {
         assertEquals(-4, calculator.sub(12,16));
         assertEquals(28, calculator.sub(12,-16));
         assertEquals(-28, calculator.sub(-12,16));
