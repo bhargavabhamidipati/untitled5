@@ -27,7 +27,7 @@ public class Testsclass {
     }
     //Vishnu's test case
     @Test
-    void testDiv() {
+    public void testDiv() {
         assertEquals(3, calculator.div(12, 4));
         assertEquals(-3, calculator.div(12, -4));
         assertEquals(3, calculator.div(-12, -4));
