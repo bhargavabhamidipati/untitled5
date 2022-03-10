@@ -16,4 +16,12 @@ public class Testsclass {
         assertEquals(0,calculator.add(2,-2));
         assertEquals(-4,calculator.add(-2,-2));
     }
+
+    //Florian Dabat TestCase
+    public void testDub() {
+        assertEquals(-4, calculator.sub(12,16));
+        assertEquals(28, calculator.sub(12,-16));
+        assertEquals(-28, calculator.sub(-12,16));
+        assertEquals(-12, calculator.sub(-12,0));
     }
+}
