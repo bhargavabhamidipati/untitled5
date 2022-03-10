@@ -1,18 +1,19 @@
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class Testsclass {
+    public static Calculator obj;
+    @BeforeClass
+    public static void setup(){
+        obj = new Calculator();
+    }
+    // TestCase 1
     @Test
     public void testAdd(){
-        Calculator obj;
-        obj = new Calculator();
         assertEquals(4,obj.add(2,2));
+        assertEquals(0,obj.add(2,-2));
+        assertEquals(-4,obj.add(-2,-2));
     }
-    @Test
-    public void testSub(){
-        Calculator obj;
-        obj = new Calculator();
-        assertEquals(0,obj.sub(2,2));
     }
-}
