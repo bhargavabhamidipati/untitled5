@@ -25,4 +25,12 @@ public class Testsclass {
         assertEquals(-28, calculator.sub(-12,16));
         assertEquals(-12, calculator.sub(-12,0));
     }
+    //Vishnu's test case
+    @Test
+    void testDiv() {
+        assertEquals(3, calculator.div(12, 4));
+        assertEquals(-3, calculator.div(12, -4));
+        assertEquals(3, calculator.div(-12, -4));
+        assertEquals(0, calculator.div(0, 4));
+    }
 }
