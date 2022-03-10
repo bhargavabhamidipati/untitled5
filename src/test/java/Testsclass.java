@@ -35,7 +35,7 @@ public class Testsclass {
     }
     //Avan's test case
     @Test
-    void testMult() {
+    public void testMult() {
         assertEquals(12, calculator.mult(3, 4));
         assertEquals(-12, calculator.mult(3, -4));
         assertEquals(12, calculator.mult(-3, -4));
