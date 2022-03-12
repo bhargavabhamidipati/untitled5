@@ -17,4 +17,3 @@ public class Testsclass {
         assertEquals(-4,calculator.add(-2,-2));
     }
     }
-
