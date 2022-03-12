@@ -34,6 +34,15 @@ public class Testsclass {
         assertEquals(0, calculator.mult(3, 0));
         assertEquals(0, calculator.mult(0, 4));
     }
+    //vishnu testcase
+    @Test
+    public void testDiv() {
+        assertEquals(3, calculator.div(12, 4));
+        assertEquals(-3, calculator.div(12, -4));
+        assertEquals(3, calculator.div(-12, -4));
+        assertEquals(0, calculator.div(0, 4));
+    }
+
 
 
 }
