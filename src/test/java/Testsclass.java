@@ -25,4 +25,15 @@ public class Testsclass {
         assertEquals(-28, calculator.sub(-12,16));
         assertEquals(-12, calculator.sub(-12,0));
     }
+    //Avan TestCase
+    @Test
+    public void testMult() {
+        assertEquals(12, calculator.mult(3, 4));
+        assertEquals(-12, calculator.mult(3, -4));
+        assertEquals(12, calculator.mult(-3, -4));
+        assertEquals(0, calculator.mult(3, 0));
+        assertEquals(0, calculator.mult(0, 4));
+    }
+
+
 }
