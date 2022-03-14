@@ -42,7 +42,12 @@ public class Testsclass {
         assertEquals(3, calculator.div(-12, -4));
         assertEquals(0, calculator.div(0, 4));
     }
-
+    // final test
+    @Test
+    public void testFinal(){
+        assertEquals(5,calculator.add(calculator.div(2,2),
+                calculator.mult(1, calculator.sub(5,2)) ));
+    }
 
 
 }
