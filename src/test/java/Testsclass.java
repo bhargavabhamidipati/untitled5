@@ -45,7 +45,7 @@ public class Testsclass {
     // final test
     @Test
     public void testFinal(){
-        assertEquals(5,calculator.add(calculator.div(2,2),
+        assertEquals(4,calculator.add(calculator.div(2,2),
                 calculator.mult(1, calculator.sub(5,2)) ));
     }
 
